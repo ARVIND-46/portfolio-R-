@@ -1,11 +1,12 @@
-
-import './App.css'
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import Bannarpg from './components/Bannarpg';
 function App() {
 
   return (
     <>
-    <h1>Portfolio</h1>
+    <Navbar/>
+    <Bannarpg/>
     </>
   )
 }

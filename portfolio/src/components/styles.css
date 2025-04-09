@@ -1,0 +1,50 @@
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.navbar ul li a{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar ul li a:hover{
+    color: blue;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.bannar{
+    margin: 20px;
+    
+    height: 100hv;
+
+}
+.bannar button{
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+.bannar button:hover{
+    transition: 0.3s;
+    font-weight: bold;
+}
+/* responsive design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: row; /* Stack items vertically */
+        gap: 10px;
+        justify-content: end;
+    }
+
+    .bannar {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .bannar button {
+        padding: 10px;
+    }
+}
