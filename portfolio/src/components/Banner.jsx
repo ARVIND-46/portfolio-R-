@@ -3,7 +3,7 @@ import "../components/styles.css";
 const Banner = () => {
   return (
     <>
-    <section className="banner-container">
+    <section className="banner-container" id="Home">
       <div className="banner-text">
         <h1>Hi</h1>
         <h1>
