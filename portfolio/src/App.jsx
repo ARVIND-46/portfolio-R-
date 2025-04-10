@@ -1,12 +1,24 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Bannarpg from './components/Bannarpg';
+import Banner from './components/Banner';
+import About from './components/About';
+import Skills from './components/Skills';
+import Footer from './components/footer';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 function App() {
 
   return (
     <>
     <Navbar/>
-    <Bannarpg/>
+    <Banner/>
+    <About/>
+    <Skills/>
+    <Contact/>
+    <Projects/>
+    <Footer/>
+   
+
     </>
   )
 }

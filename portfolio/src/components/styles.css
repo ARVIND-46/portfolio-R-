@@ -15,22 +15,72 @@
     font-weight: bold;
     text-decoration:underline;
 }
-.bannar{
+.banner{
     margin: 20px;
-    
+
     height: 100hv;
 
 }
-.bannar button{
+.banner button{
     padding: 10px 40px;
     background-color: blue;
     color: white;
     border-radius: 8px;
 }
-.bannar button:hover{
+.banner button:hover{
     transition: 0.3s;
     font-weight: bold;
 }
+#Project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .cards {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cards p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .cards a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .cards a:hover {
+    background-color: #0056b3;
+  }
+  
 /* responsive design */
 @media (max-width: 768px) {
     .navbar ul {
@@ -39,12 +89,12 @@
         justify-content: end;
     }
 
-    .bannar {
+    .banner {
         margin: 10px;
         text-align: center;
     }
 
-    .bannar button {
+    .banner button {
         padding: 10px;
     }
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Bannarpg = () => {
+const Banner = () => {
   return (
     <>
-    <div className="bannar">
+    <div className="banner">
     <h1>Hi</h1>
             <h1>I'm <span style={{color:'blue'}}>Arvind</span></h1>
             <h1>Web Designer</h1>
@@ -13,4 +13,4 @@ const Bannarpg = () => {
   )
 }
 
-export default Bannarpg
+export default Banner
