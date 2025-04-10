@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import About from './components/About';
 import Skills from './components/Skills';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 function App() {
