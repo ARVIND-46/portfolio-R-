@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact,FaPython  } from 'react-icons/fa';
+
 import "../components/styles.css" 
 
 const Skills = () => {
@@ -27,6 +28,10 @@ const Skills = () => {
           <div className="skill-card">
             <FaReact size={50} />
             <p>React</p>
+          </div>
+          <div className="skill-card">
+            <FaPython size={50} />
+            <p>Python</p>
           </div>
         </div>
       </div>

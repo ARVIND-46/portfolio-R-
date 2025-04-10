@@ -14,8 +14,9 @@ function App() {
     <Banner/>
     <About/>
     <Skills/>
-    <Contact/>
     <Projects/>
+    <Contact/>
+
     <Footer/>
    
 

@@ -1,20 +1,24 @@
-import React from 'react'
-
+import React from 'react';
+import "../components/styles.css";
 const Banner = () => {
   return (
     <>
-    <div className="banner">
-    <h1>Hi</h1>
-            <h1>I'm <span style={{color:'blue'}}>Arvind</span></h1>
-            <h1>Web Designer</h1>
-            <button onClick={() => window.location.href = "#Contact"}>Contact</button>
-
-    </div>
-    <div id="img">
-      <img src="" alt="" />
-    </div>
+    <section className="banner-container">
+      <div className="banner-text">
+        <h1>Hi</h1>
+        <h1>
+          I'm <span className="highlight">Arvind</span>
+        </h1>
+        <h1>Web Designer | React Developer </h1>
+        <button onClick={() => window.location.href = "#Contact"}>Contact</button>
+      </div>
+      
+      <div className="banner-image">
+        <img src="/assets/arvi.jpg" alt="Arvind" />
+      </div>
+    </section>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

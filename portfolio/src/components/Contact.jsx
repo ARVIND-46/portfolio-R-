@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin,FaInstagram } from 'react-icons/fa';
+import { TbFileCv } from "react-icons/tb"
 import "../components/styles.css" 
 
 const Contact = () => {
@@ -16,6 +17,12 @@ const Contact = () => {
         </a>
         <a href="https://www.linkedin.com/in/arvind-r-1b5227256/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} />
+        </a>
+        <a href="https://www.instagram.com/_arvind._46/" target="_blank" rel="noopener noreferrer">
+          <FaInstagram size={30} />
+        </a>  
+        <a href="/assets/Resume.pdf" download={true}>
+          <TbFileCv size={30} />
         </a>
       </div>
     </div>
